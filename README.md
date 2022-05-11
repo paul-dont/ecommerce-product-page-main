@@ -1,6 +1,6 @@
-# Frontend Mentor - FAQ accordion card solution
+# Frontend Mentor - E-commerce product page solution
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,42 +22,50 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Hide/Show the answer to a question when the question is clicked
+- Open a lightbox gallery by clicking on the large product image
+- Switch the large product image by clicking on the small thumbnail images
+- Add items to the cart
+- View the cart and remove items from it
 
 ### Screenshot
 
-![](./images/Screenshot_1.png)
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
 
-- Solution URL: https://github.com/paul-dont/faq-accordion-card
-- Live Site URL: https://boisterous-figolla-e14da5.netlify.app
+- Solution URL: [Add solution URL here](https://github.com/paul-dont/ecommerce-product-page-main)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
-I started by defining the markup for the card then i styled it using a mobile first approach and fixed responsivenes right after and lastly added the functionality for the buttons.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
-- Vanilla JavaScript
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Stacking images on top of one another multiple times is quite tricky to manage and display correctly especially when responsive design comes to play. Also overflow has complications with fixed / absolute positioned elements.
+I practiced alot with react hooks and props and learned how awesome useState and other less ofter used hooks are.
 
 ### Continued development
 
-The desktop design images need a small adjacement.
-
-### Useful resources
+The cart functionality is not yet fully implemented. Also certain elements need to be optimized. Responsive design is not yet fully completed. I could expand this project and practice alot more react and css consepts.
 
 ## Author
 
-- Frontend Mentor - https://www.frontendmentor.io/profile/paul-dont
-- GitHub - https://github.com/paul-dont
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
