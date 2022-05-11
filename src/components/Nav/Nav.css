@@ -1,0 +1,142 @@
+.nav {
+  color: black;
+  border-bottom: 1px solid var(--color-grayish-blue);
+  padding: 2rem 0 3rem 0;
+  width: var(--width-container-sm);
+  margin: 0 auto 1rem;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.nav-menu__icon {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-menu h4 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3rem;
+  color: var(--color-dark-grayish-blue);
+  transition: var(--transition);
+  background: #fff;
+  z-index: 99;
+}
+
+.nav-items a {
+  text-transform: capitalize;
+  padding-bottom: 4.06rem;
+}
+
+.nav-items a:hover {
+  border-bottom: 5px solid var(--color-orange);
+}
+
+.nav-items li:hover {
+  color: var(--color-black);
+}
+
+.nav-items a:visited {
+  color: inherit;
+}
+
+.nav-avatar {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.nav-avatar__image {
+  width: 4.2rem;
+  box-sizing: inherit;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.nav-avatar__image:hover {
+  border-color: var(--color-orange);
+}
+
+/* Media Queries */
+@media screen and (max-width: 375px) {
+  .nav {
+    border: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+  }
+
+  .nav-bar {
+    display: inline-flex;
+  }
+
+  .nav-menu__icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 4px 1.2rem 0;
+    z-index: 999;
+  }
+
+  .nav-avatar {
+    gap: 2rem;
+  }
+
+  .nav-avatar__avatar {
+    width: 2.2rem;
+  }
+
+  .nav-items {
+    position: absolute;
+    flex-direction: column;
+    font-weight: bold;
+    color: var(--color-black);
+    gap: 1.5rem;
+    left: -40rem;
+    padding: 10rem 5rem 0 3rem;
+    height: 100vh;
+    width: 70%;
+    top: 0;
+    background: #fff;
+  }
+
+  .nav-items__closed {
+    left: 0;
+  }
+
+  .nav-items a:hover {
+    border: 0;
+  }
+
+  .nav-items li:hover {
+    color: var(--color-dark-grayish-blue);
+  }
+
+  .bg-black {
+    position: absolute;
+    background: var(--color-black);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+}

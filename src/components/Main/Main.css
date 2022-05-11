@@ -1,0 +1,18 @@
+.main {
+  width: 70%;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12rem;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,142 @@
+.preview {
+  width: 50%;
+}
+
+.preview-brand {
+  text-transform: uppercase;
+  color: var(--color-orange);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+  letter-spacing: 2px;
+}
+
+.preview-product {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin: 1.8rem 0 3.6rem;
+  line-height: 1.2;
+}
+
+.preview-description {
+  color: var(--color-dark-grayish-blue);
+  margin-bottom: 4rem;
+}
+
+.preview-prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.preview-price {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.preview-discount {
+  background: var(--color-pale-orange);
+  color: var(--color-orange);
+  border-radius: 5px;
+  padding: 0 6px;
+  font-weight: 700;
+}
+
+.preview-price__orig {
+  font-weight: 700;
+  text-decoration: line-through;
+  color: var(--color-grayish-blue);
+  margin-bottom: 3.6rem;
+}
+
+.preview-CTA {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.preview-counter {
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1rem;
+  background: var(--color-light-grayish-blue);
+  cursor: default;
+  color: var(--color-black);
+}
+
+.preview-counter:hover {
+  filter: opacity(1);
+}
+
+.preview-counter > img {
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.preview-counter > img:hover {
+  filter: opacity(60%);
+}
+
+.preview-btn {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.preview-btn > img {
+  margin-right: 1rem;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(34%) saturate(72%)
+    hue-rotate(34deg) brightness(111%) contrast(92%);
+}
+
+@media screen and (max-width: 375px) {
+  .preview {
+    width: 85%;
+  }
+
+  .preview-brand {
+    margin-top: 1rem;
+  }
+
+  .preview-product {
+    margin: 1rem 0 1.4rem;
+  }
+
+  .preview-description {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .preview-price__orig {
+    /* padding-top: 1rem; */
+    margin-bottom: 0;
+  }
+
+  .preview-prices {
+    margin-bottom: 1rem;
+  }
+
+  .preview-prices__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .preview-counter {
+    width: 100%;
+  }
+
+  .preview-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1.4rem 0;
+  }
+
+  .preview-CTA {
+    flex-direction: column;
+  }
+}
