@@ -37,13 +37,19 @@ const Preview = () => {
           <img
             className="preview-minus"
             src={Minus}
+            alt="minus icon"
             onClick={subtractHandler}
           />
           <span className="preview-counter__number">{count}</span>
-          <img className="preview-plus" src={Plus} onClick={appendHandler} />
+          <img
+            className="preview-plus"
+            src={Plus}
+            alt="plus icon"
+            onClick={appendHandler}
+          />
         </span>
         <button className="btn preview-btn">
-          <img className="preview-btn__icon" src={Cart} />
+          <img className="preview-btn__icon" src={Cart} alt="cart icon" />
           Add to cart
         </button>
       </div>

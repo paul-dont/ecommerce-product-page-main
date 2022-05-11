@@ -6,7 +6,7 @@ import ModalSlider from "../ModalSlider/ModalSlider";
 import "./Main.css";
 
 const Main = () => {
-  const [modalStatus, setModalStatus] = useState("hidden");
+  const [modalStatus] = useState("hidden");
 
   return (
     <div className="main">
