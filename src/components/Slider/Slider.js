@@ -52,13 +52,13 @@ const Slider = (props) => {
           className="slider-btn slider-btn__left"
           onClick={leftSlideHandler}
         >
-          <img src={BtnLeft} />
+          <img src={BtnLeft} alt="left icon" />
         </button>
         <button
           className="slider-btn slider-btn__right"
           onClick={rightSlideHandler}
         >
-          <img src={BtnRigth} />
+          <img src={BtnRigth} alt="right icon" />
         </button>
       </div>
       <div className="slider-thumbnails">
